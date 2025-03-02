@@ -1,8 +1,8 @@
 # ~/.config/starship.toml
 
-add_newline = true
+add_newline = false
 command_timeout = 1000
-format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
+format = """$os$username$hostname$kubernetes$directory$nodejs$git_branch$git_status\n"""
 
 # Drop ugly default prompt characters
 [character]
@@ -90,10 +90,13 @@ disabled = true
 disabled = true
 
 [nodejs]
-disabled = true
+disabled = false
 
 [ruby]
 disabled = true
 
 [terraform]
 disabled = true
+
+[line_break]
+disabled = false

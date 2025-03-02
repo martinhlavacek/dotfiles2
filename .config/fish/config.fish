@@ -47,7 +47,6 @@ set -Ux FZF_TMUX_OPTS "-p \
 --marker=' ' \
 --ansi \
 --color='16,bg+:-1,gutter:-1,prompt:4,pointer:5,marker:6'"
-
 set -Ux FZF_CTRL_R_OPTS "--border-label=' history ' \
 --header='ctrl-d: delete' \
 --prompt='  '"
