@@ -1,4 +1,8 @@
 # https://fishshell.com/docs/current/cmds/abbr.html
+abbr po "podman"
+abbr pi "podman images"
+abbr pps "podman ps"
+abbr ppsa "podman ps -a"
 abbr :GoToFile "nvim +GoToFile"
 abbr :bd exit
 abbr :q "tmux kill-server"
